@@ -1,0 +1,34 @@
+.random-planet {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 1rem;
+    background: #303030;
+    margin-bottom: 2rem;
+}
+
+.random-planet .planet-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.random-planet .list-group {
+    margin: 1rem 0 0 1rem;
+}
+
+.random-planet .list-group-item {
+    padding: .25rem;
+    border-left: none;
+    border-right: none;
+    border-radius:0
+}
+
+.random-planet .list-group-item:last-of-type {
+    border-bottom: none;
+}
+
+.random-planet .list-group-item .term {
+    margin-right: .5rem;
+}
